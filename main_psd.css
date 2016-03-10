@@ -1,0 +1,825 @@
+/* ================ MEDIA QUERIES IPAD ====================== */
+
+
+@media only screen and (max-width: 1000px){
+
+
+/* ================================ Rozwijane Menu =============================== */ 
+  
+.main_menu{
+        display: none;
+    }  
+      
+    
+.hamburger {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  line-height: 45px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 5em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 1.1em;
+  width: 45%;
+  background: #131313;
+  position: absolute;
+  text-align: center;
+}
+
+.menu ul {
+display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+
+}
+
+.menu li {
+  display: block;
+  padding: 15px 0 15px 0;
+  border-bottom: #1d1f20 1px solid;
+}
+
+.menu li:hover {
+  display: block;
+  background: #181818;
+  padding: 15px 0 15px 0;
+  border-bottom: #1d1f20 1px solid;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  margin: 0px;
+  color: #fff;
+}
+
+.menu ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.glyphicon-home {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 5px;
+  margin: 0 auto;
+}
+
+
+/* =================================== Reszta ============================= */ 
+
+
+.header > div{
+    width: 80%; 
+}
+    
+.img {
+     display:block;  
+    }   
+    
+.img .cake{
+    width: 80%;
+    height: auto;
+    margin-right: 10%;
+    margin-left:10%;
+}
+    
+        
+.rotator{
+    display: none;  
+}
+
+
+.content {
+    width: 80%;
+}
+
+.recipes_category{
+    display: none;
+        
+}
+    
+
+.recipes_category1{
+    
+    display:inline-block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    width:80%;
+    clear: both;
+    margin-left:10%;
+    margin-right:10%;   
+ }
+    
+
+.image{
+   
+    width:40%;
+    text-align: center;
+    margin-left:5%;
+    margin-right: 5%;
+    display: inline-block;
+    float:left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}   
+    
+ 
+.image img{
+    display:block;
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}  
+    
+.image h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 800;
+   
+}
+
+
+.recipes_category1 a {
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.recipes_category1 a:hover {
+    text-decoration: underline;
+    color: black;    
+}
+  
+    
+
+
+/* ================ Best Recipes ====================== */
+
+
+ .item_all{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}   
+    
+ .item_all .recipes-item{
+    border: 1px solid #ebebeb;
+    float:left;
+    width:90%;
+    margin-bottom: 25px;
+    margin-right: 1%;
+        
+}   
+    
+
+/* ================ TAGS====================== */
+
+
+.advertisers{
+        display: none;
+    }    
+    
+.advertisers1{
+    
+    width: 80%;
+    height: auto;
+    display:inline-block;
+    margin-left:10%;
+    margin-right:10%;
+}
+    
+
+.advertisers1 img{
+    width:30%;
+    height:auto;
+      margin-left:auto;
+    margin-right:auto;
+   }    
+    
+
+.tags{
+    display:none;
+}
+
+.tags_small{
+    float:left;
+    margin-top:35px;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+   
+    
+    padding-bottom: 20px;  
+}
+    
+
+/* ================ FOOTER ====================== */
+
+.footer{
+    width: 80%;   
+}
+
+.base-footer{
+    background-color: #202020;
+    width: 80%;
+    padding:10px 0;
+    margin: 0 auto;
+    
+}
+    .base-footer .bf-content{
+    width: 80%;
+    
+}
+
+.base-footer .copy{
+    float: left;
+    padding-top: 5px;
+}
+
+
+}
+
+
+/* ======================================== MEDIA QUERIES 500px ====================== */
+
+
+
+
+
+
+
+@media only screen and (max-width: 580px){
+    
+
+.hamburger {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  line-height: 45px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 4em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+
+
+/* ======================== Reszta ================== */ 
+
+
+.header >div{
+    width: 90%; 
+}
+    
+header h1{
+        margin-left: 80px;
+    }    
+    
+.img {
+     display:block;  
+    }   
+    
+.img .cake{
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-left:5%;
+}
+      
+
+.content {
+    width: 90%;
+}
+    
+.content h2{
+        
+    font-size: 24px;
+    padding: 30px 0;
+  
+}
+
+    
+
+    
+/* ================ Best Recipes ====================== */
+
+
+ .item_all{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}   
+    
+ .item_all .recipes-item{
+    border: 1px solid #ebebeb;
+    float:left;
+    width:80%;
+    margin-bottom: 25px;
+    margin-right: 1%;
+        
+}   
+    
+    
+.sub-header h4{
+   font-size: 1.7em; 
+    width: 90%;
+    height:auto;
+    line-height: 1.1em;
+    }
+    
+
+
+.recipes-item img{
+    float:left;
+    height: auto;
+    width:100%;
+    margin-bottom: 7px;
+    
+}
+    
+.stags li {
+    
+    margin-bottom: 5px;
+    
+}
+    
+  
+
+/* ================ TAGS====================== */
+
+.sub-header1 h4{
+   font-size: 1.5em; 
+    width: 90%;
+    height:auto;
+    padding-top:2px;
+    
+    }
+    
+   .advertisers img {
+    display: block;
+    width:100%;
+    height:auto;
+     margin: auto;
+} 
+    
+
+
+.advertisers li {
+    
+    width:80%;
+    height:auto;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+        
+}    
+    
+.tags{
+    display:none;
+}
+
+.tags_small{
+    float:left;
+    margin-top:35px;
+    padding-bottom: 15px;  
+}
+    
+    
+.footer .footer-content{ 
+    margin-top: 20px;
+    
+    
+    }  
+
+.footer{
+    width: 90%;   
+}
+    
+    
+    
+    
+.footer .footer-content > div {
+    float:left;
+    width: 90%;
+    padding-bottom: 10%;
+       
+}
+
+    .footer h5{
+    font-size:15px;
+    margin-bottom: 10px;
+    font-weight:800;
+    text-align: center;
+}
+    
+    .footer p{
+    margin-bottom: 15px;
+    line-height: 1.41em;
+    text-align: center;
+    
+}
+    
+ 
+    
+.text p{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.base-footer{
+    background-color: #202020;
+    width: 90%;
+    padding:10px 0;
+    margin: 0 auto;
+    
+}
+    .base-footer .bf-content{
+    width: 90%;
+    
+}
+    
+ .base-footer li{
+    list-style: none;
+    float:left;
+    margin-bottom: 10px;
+}   
+ 
+
+.base-footer .copy{
+    float: left;
+    padding-top: 5px;
+}  
+    
+    
+        
+}
+
+
+
+
+/* ======================================== MEDIA QUERIES 375px ====================== */
+
+
+@media only screen and (max-width: 390px){
+    
+
+  .hamburger {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  line-height: 45px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.cross {
+  display: block;
+  background: none;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+  padding: 0px 15px 0px 15px;
+  color: #000;
+  border: 0;
+  font-size: 4em;
+  line-height: 65px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+
+
+/* ============================ Reszta =========================== */ 
+
+
+.header >div{
+    width: 90%; 
+}
+    
+header h1{
+        margin-left: 70px;
+    }    
+    
+.img {
+     display:block;  
+    }   
+    
+.img .cake{
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+    margin-left:5%;
+}
+      
+
+.content {
+    width: 90%;
+}
+    
+.content h2{
+        
+    font-size: 20px;
+    padding: 30px 0;
+        
+    }
+
+ 
+    
+.recipes_category1{
+    
+    display:inline-block;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+    width:80%;
+    clear: both;
+    margin-left:10%;
+    margin-right:10%;   
+ }
+    
+
+.image{
+   
+    width:80%;
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%;
+    display: inline-block;
+    float:left;
+    margin-bottom: 10px;
+    margin-top: 7px;
+}   
+    
+ 
+.image img{
+    display:block;
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+}  
+    
+.image h3{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    font-weight: 800;
+   
+}
+
+
+.recipes_category1 a {
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+.recipes_category1 a:hover {
+    text-decoration: underline;
+    color: black;    
+}
+    
+    
+    
+
+    
+/* ================ Best Recipes ====================== */
+
+
+ .item_all{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}   
+    
+ .item_all .recipes-item{
+    border: 1px solid #ebebeb;
+    float:left;
+    width:80%;
+    margin-bottom: 25px;
+    margin-right: 1%;
+        
+}   
+    
+    
+.sub-header h4{
+   font-size: 1.5em; 
+    width: 90%;
+    height:auto;
+    line-height: 1.1em;
+    }
+    
+
+
+.recipes-item img{
+    float:left;
+    height: auto;
+    width:100%;
+    margin-bottom: 7px;
+    
+}
+    
+.stags li {
+    
+    margin-bottom: 5px;
+    
+}
+    
+  
+
+/* ================ TAGS====================== */
+
+.sub-header1 h4{
+   font-size: 1.5em; 
+    width: 90%;
+    height:auto;
+    padding-top:2px;
+    
+    }
+    
+   .advertisers img {
+    display: block;
+    width:100%;
+    height:auto;
+     margin: auto;
+} 
+    
+
+
+.advertisers li {
+    
+    width:80%;
+    height:auto;
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+        
+}    
+    
+.tags{
+    display:none;
+}
+
+.tags_small{
+    float:left;
+    margin-top:35px;
+    padding-bottom: 15px;  
+}
+    
+    
+.footer .footer-content{ 
+    margin-top: 20px;
+    
+    
+    }  
+
+.footer{
+    width: 90%;   
+}
+    
+    
+
+    
+.footer .footer-content > div {
+    float:left;
+    width: 90%;
+    padding-bottom: 10%;
+       
+}
+
+    .footer h5{
+    font-size:15px;
+    margin-bottom: 10px;
+    font-weight:800;
+    text-align: center;
+}
+    
+    .footer p{
+    margin-bottom: 15px;
+    line-height: 1.41em;
+    text-align: center;
+    
+}
+    
+    .text p{
+        width:80%;
+    margin-left: 10%;
+        margin-right: 10%;
+        text-align: justify;
+    }
+.base-footer{
+    background-color: #202020;
+    width: 90%;
+    padding:10px 0;
+    margin: 0 auto;
+    
+}
+    .base-footer .bf-content{
+    width: 90%;
+    
+}
+    
+ .base-footer li{
+    list-style: none;
+    float:left;
+    margin-bottom: 10px;
+}   
+ 
+    
+
+.base-footer .copy{
+    float: left;
+    padding-top: 5px;
+}  
+    
+    
+        
+}
+
+
+
+
+
+
+
+
+
+
